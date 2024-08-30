@@ -1,0 +1,50 @@
+{
+"info"{
+  "year" : int,
+  "version" : str,
+  "description" : str,
+  "contributor" : str,
+  "url" : str,
+  "date_created" : str,
+},
+
+"image"{
+  "id" : int,
+  "width" : int,
+  "height" : int,
+  "file_name" : str,
+  "license" : int,
+  "rights_holder" : str,
+  "date": str,
+  "latitude": float,
+  "longitude": float,
+  "location_uncertainty": int,
+},
+
+"category"{
+  "id" : int,
+  "name" : str,
+  "common_name" : str,
+  "supercategory" : str,
+  "kingdom" : str,
+  "phylum" : str,
+  "class" : str,
+  "order" : str,
+  "family" : str,
+  "genus" : str,
+  "specific_epithet" : str,
+  "image_dir_name" : str,
+},
+
+"annotation"{
+  "id" : int,
+  "image_id" : int,
+  "category_id" : int
+},
+
+"license"{
+  "id" : int,
+  "name" : str,
+  "url" : str
+}
+}
